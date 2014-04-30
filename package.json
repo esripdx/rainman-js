@@ -1,0 +1,17 @@
+{
+  "name": "rainman-js",
+  "version": "0.1.0",
+  "description": "Rainman client for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rainman"
+  ],
+  "author": "Jerry Sievert <code@legitimatesounding.com>",
+  "license": "Apache",
+  "dependencies": {
+    "request": "^2.34.0"
+  }
+}
