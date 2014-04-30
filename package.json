@@ -1,5 +1,5 @@
 {
-  "name": "rainman-js",
+  "name": "rainman",
   "version": "0.1.0",
   "description": "Rainman client for Node.js",
   "main": "index.js",
