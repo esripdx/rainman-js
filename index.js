@@ -1,15 +1,15 @@
 var request = require('request');
 
 
-function report (endpoint, group_id, key, value, number, callback, optionalData) {
+function report (endpoint, client_id, key, value, number, callback, optionalData) {
   optionalData = optionalData || { };
 
   var date = optionalData.date || new Date();
   var precision = optionalData.precision || 'day';
 
   var formData = {
-    group_id: group_id,
-    client_id: optionalData.client_id,
+    group_id: optionalData.group_id,
+    client_id: client_id,
     key: key,
     value: value,
     number: number,

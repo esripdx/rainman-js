@@ -18,13 +18,13 @@ var rainman = require('rainman');
 // precision defaults to 'day'
 var optionalData = {
   date: new Date(),
-  client_id: 123,
+  group_id: 123,
   precision: 'hour'
 };
 
 rainman.report(
   rainmanEndpoint,
-  group_id,
+  client_id,
   key,
   value,
   number,
